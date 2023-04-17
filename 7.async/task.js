@@ -10,7 +10,7 @@ class AlarmClock {
     }
 
     if (this.alarmCollection.includes(timeStart)) {
-      console.warn("Уже присутствует звонок на это же время");
+      console.warn("Уже есть звонок на это же время");
       return;
     }
 
